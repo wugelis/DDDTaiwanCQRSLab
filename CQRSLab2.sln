@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CA32A8C4-6CA6-4E2E-AE9E-11E49EACADA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{F6B5543D-319D-4B09-A27F-A2039233B05C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebCQRSApp1", "WebCQRSApp1\WebCQRSApp1.csproj", "{17D356C1-1361-49B1-B826-730B9DA63C98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTaiwan2020.Application", "DDDTaiwan2020.Application\DDDTaiwan2020.Application.csproj", "{5949075C-A22E-4854-ADBE-8907E1998C6B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{49BC6F84-6F09-4B8D-B149-A759E3BDFEDA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTaiwan2020.Domain", "DDDTaiwan2020.Domain\DDDTaiwan2020.Domain.csproj", "{EB63FC1B-D5D8-402A-A03B-6C7E3E71D8BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrstructure", "Infrstructure", "{96436259-35DA-4750-853C-F3C8BCEE067D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDDTaiwan2020.Infrstructure", "DDDTaiwan2020.Infrstructure\DDDTaiwan2020.Infrstructure.csproj", "{9721A480-1352-4CD3-97CA-E44332AB916C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{17D356C1-1361-49B1-B826-730B9DA63C98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17D356C1-1361-49B1-B826-730B9DA63C98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17D356C1-1361-49B1-B826-730B9DA63C98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17D356C1-1361-49B1-B826-730B9DA63C98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5949075C-A22E-4854-ADBE-8907E1998C6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5949075C-A22E-4854-ADBE-8907E1998C6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5949075C-A22E-4854-ADBE-8907E1998C6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5949075C-A22E-4854-ADBE-8907E1998C6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB63FC1B-D5D8-402A-A03B-6C7E3E71D8BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB63FC1B-D5D8-402A-A03B-6C7E3E71D8BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB63FC1B-D5D8-402A-A03B-6C7E3E71D8BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB63FC1B-D5D8-402A-A03B-6C7E3E71D8BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9721A480-1352-4CD3-97CA-E44332AB916C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9721A480-1352-4CD3-97CA-E44332AB916C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9721A480-1352-4CD3-97CA-E44332AB916C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9721A480-1352-4CD3-97CA-E44332AB916C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{17D356C1-1361-49B1-B826-730B9DA63C98} = {CA32A8C4-6CA6-4E2E-AE9E-11E49EACADA4}
+		{5949075C-A22E-4854-ADBE-8907E1998C6B} = {F6B5543D-319D-4B09-A27F-A2039233B05C}
+		{EB63FC1B-D5D8-402A-A03B-6C7E3E71D8BA} = {49BC6F84-6F09-4B8D-B149-A759E3BDFEDA}
+		{9721A480-1352-4CD3-97CA-E44332AB916C} = {96436259-35DA-4750-853C-F3C8BCEE067D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F5DC69E6-1E51-43EC-AA1C-85597E9DC40E}
+	EndGlobalSection
+EndGlobal
